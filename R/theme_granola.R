@@ -8,8 +8,8 @@
 #'
 #' @examples
 theme_granola <- function() {
-  theme(plot.background = element_rect(fill = "tan4"),
-      panel.background = element_rect(fill = "whitesmoke"),
-      axis.text = element_text(color = "seagreen4"),
+  theme(panel.background = element_rect(fill = "whitesmoke"),
+      axis.text = element_text(color = "goldenrod1"),
+      axis.title = element_text(color = "tan4"),
       panel.grid = element_line(color = "darkolivegreen"))
 }
